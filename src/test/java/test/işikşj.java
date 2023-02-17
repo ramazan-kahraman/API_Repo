@@ -12,6 +12,7 @@ import static org.hamcrest.Matchers.equalTo;
 
 public class işikşj {
 
+
     /*
             https://restful-booker.herokuapp.com/booking
              url’ine asagidaki body'ye sahip
@@ -50,7 +51,7 @@ public class işikşj {
 
         booking.put("checkin" , "2021-06-01");
         booking.put("checkout" , "2021-06-10");
-
+        System.out.println("das");
         JSONObject reqbody=new JSONObject();
 
         reqbody.put("firstname" , "Ali");
